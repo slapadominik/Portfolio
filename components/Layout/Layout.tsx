@@ -1,8 +1,14 @@
 import { Box, Container } from "@chakra-ui/react";
 import Head from "next/head";
-import React from "react";
+import { Router } from "next/router";
+import React, { FC } from "react";
+import { Navbar } from "../Navbar/Navbar";
 
-export const Layout = () => {
+export interface LayoutProps {
+  router: Router;
+}
+
+export const Layout: FC<LayoutProps> = ({ children, router }) => {
   return (
     <Box as="main" pb={8}>
       <Head>
@@ -10,7 +16,8 @@ export const Layout = () => {
         <title>Dominik Słapa - Homepage</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Container>Test123</Container>
+      <Navbar path={router.asPath} />
+      <Container>{children}</Container>
     </Box>
   );
 };

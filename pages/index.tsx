@@ -5,7 +5,7 @@ import { Layout } from "../components/Layout/Layout";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
-  return <Layout></Layout>;
+  return <p>siema</p>;
 };
 
 export default Home;
