@@ -65,7 +65,6 @@ export const Navbar: FC<NavbarProps> = (props) => {
       as="nav"
       w="100%"
       bg={useColorModeValue("#ffffff40", "#20202380")}
-      css={{ backdropFilter: "blur(10px)" }}
       zIndex={1}
       {...props}
     >
@@ -77,12 +76,6 @@ export const Navbar: FC<NavbarProps> = (props) => {
         align="center"
         justify="space-between"
       >
-        <Flex align="center" mr={5}>
-          <Heading as="h1" size="lg" letterSpacing={"tighter"}>
-            <Logo />
-          </Heading>
-        </Flex>
-
         <Stack
           direction={{ base: "column", md: "row" }}
           display={{ base: "none", md: "flex" }}
@@ -91,6 +84,7 @@ export const Navbar: FC<NavbarProps> = (props) => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
+          <Logo />
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
