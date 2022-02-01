@@ -93,15 +93,16 @@ export const Navbar: FC<NavbarProps> = (props) => {
           </LinkItem>
           <LinkItem
             _target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://github.com/slapadominik"
             path={path}
             display="inline-flex"
             alignItems="center"
             style={{ gap: 4 }}
             pl={2}
+            isExternal
           >
             <IoLogoGithub />
-            Source
+            Github
           </LinkItem>
         </Stack>
 
@@ -128,7 +129,7 @@ export const Navbar: FC<NavbarProps> = (props) => {
                   as={Link}
                   href="https://github.com/craftzdog/craftzdog-homepage"
                 >
-                  View Source
+                  Github
                 </MenuItem>
               </MenuList>
             </Menu>

@@ -11,6 +11,7 @@ import { Paragraph } from "../components/Paragraph/Paragraph";
 import { Section } from "../components/Section/Section";
 import NextLink from "next/link";
 import { ChevronRightIcon } from "@chakra-ui/icons";
+import { BioSection, BioYear } from "../components/Bio/Bio";
 
 const Home = () => {
   return (
@@ -52,7 +53,7 @@ const Home = () => {
       </Box>
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About me
         </Heading>
         <Paragraph>
           I&apos;m a full-stack developer based in Poland with a passion for
@@ -69,6 +70,45 @@ const Home = () => {
             </Button>
           </NextLink>
         </Box>
+      </Section>
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Education
+        </Heading>
+        <BioSection>
+          <BioYear>2016 - 2021</BioYear>
+          Bachelor of Science - Computer Science, University of Science and
+          Technology in Wrocław
+        </BioSection>
+      </Section>
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Work experience
+        </Heading>
+        <BioSection>
+          <BioYear>2018 - 2020</BioYear>
+          Worked at Krajowy Rejestr Długów S.A., Wrocław
+        </BioSection>
+        <BioSection>
+          <BioYear>2020 - 2021</BioYear>
+          Worked at Axabee S.A., Wrocław
+        </BioSection>
+        <BioSection>
+          <BioYear>2021 - present</BioYear>
+          Working remotly for Diagnostyka S.A.
+        </BioSection>
+      </Section>
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          I ♥
+        </Heading>
+        <Paragraph>
+          Music, Rock climbing, Hiking, Skiing,{" "}
+          <Link href="https://www.instagram.com/dslapa/" target="_blank">
+            Photography
+          </Link>
+          , Software development
+        </Paragraph>
       </Section>
     </Container>
   );
