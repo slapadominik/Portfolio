@@ -4,7 +4,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { theme } from "../styles/theme";
 import "@fontsource/m-plus-rounded-1c";
 import { GetServerSidePropsContext } from "next";
-import Fonts from "../lib/fonts";
+import Fonts from "../lib/Fonts";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
