@@ -88,11 +88,8 @@ export const Navbar: FC<NavbarProps> = (props) => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
-            Works
-          </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
+          <LinkItem href="/projects" path={path}>
+            Projects
           </LinkItem>
           <LinkItem
             _target="_blank"
@@ -105,7 +102,7 @@ export const Navbar: FC<NavbarProps> = (props) => {
             isExternal
           >
             <IoLogoGithub />
-            Github
+            GitHub
           </LinkItem>
         </Stack>
 
