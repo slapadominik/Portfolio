@@ -19,7 +19,7 @@ const LegalTalents = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://www.legaltalents.pl/">
+          <Link href="https://www.legaltalents.pl/" isExternal>
             https://www.legaltalents.pl/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
