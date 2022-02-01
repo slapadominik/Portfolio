@@ -6,12 +6,21 @@ import {
   useColorModeValue,
   Image,
   Button,
+  ListItem,
+  Icon,
+  List,
 } from "@chakra-ui/react";
 import { Paragraph } from "../components/Paragraph/Paragraph";
 import { Section } from "../components/Section/Section";
 import NextLink from "next/link";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { BioSection, BioYear } from "../components/Bio/Bio";
+import {
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoLinkedin,
+} from "react-icons/io5";
 
 const Home = () => {
   return (
@@ -109,6 +118,49 @@ const Home = () => {
           </Link>
           , Software development
         </Paragraph>
+      </Section>
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          On the web
+        </Heading>
+        <List>
+          <ListItem>
+            <Link href="https://github.com/slapadominik" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoGithub} />}
+              >
+                @slapadominik
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link
+              href="https://www.linkedin.com/in/dominik-s%C5%82apa-7a9aa4128/"
+              target="_blank"
+            >
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoLinkedin} />}
+              >
+                @slapadominik
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.instagram.com/dslapa/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoInstagram} />}
+              >
+                @dslapa
+              </Button>
+            </Link>
+          </ListItem>
+        </List>
       </Section>
     </Container>
   );

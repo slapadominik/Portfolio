@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Text, useColorModeValue } from "@chakra-ui/react";
 import styled from "@emotion/styled";
+import { GiMountaintop, GiMountains } from "react-icons/gi";
 
 const LogoBox = styled.span`
   font-weight: bold;
@@ -24,11 +24,12 @@ const Logo = () => {
     <Link href="/">
       <a>
         <LogoBox>
+          <GiMountaintop />
           <Text
             color={useColorModeValue("gray.800", "whiteAlpha.900")}
-            fontFamily='M PLUS Rounded 1c", sans-serif'
-            fontWeight="bold"
-            ml={3}
+            fontFamily='"M PLUS Rounded 1c"'
+            fontWeight="500"
+            ml={2}
           >
             Dominik Słapa
           </Text>
