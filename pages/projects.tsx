@@ -16,7 +16,7 @@ const Works = () => (
         Personal projects
       </Heading>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={2} gap={6}>
         <Section>
           <WorkGridItem
             id="legaltalents"
@@ -52,7 +52,7 @@ const Works = () => (
         </Heading>
       </Section>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={2} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="seeplaces" thumbnail={seeplaces} title="Seeplaces">
             Multilingual, multi-currency e-commerce web application with
