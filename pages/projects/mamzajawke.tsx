@@ -6,21 +6,20 @@ import { Meta } from "../../components/Meta/Meta";
 import { Title } from "../../components/Title/Title";
 import { ProjectImage } from "../../components/ProjectImage/ProjectImage";
 
-const LegalTalents = () => (
-  <Article pageTitle="LegalTalents">
+const MamZajawke = () => (
+  <Article pageTitle="MamZajawke">
     <Container>
       <Title>
-        LegalTalents <Badge>2021</Badge>
+        MamZajawke <Badge>2018 - present</Badge>
       </Title>
       <Paragraph>
-        Modern job board for lawyers. The new way to find career opportunities
-        using online map and marked job offers.
+        E-commerce web application for local clothing brand.
       </Paragraph>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://www.legaltalents.pl/" isExternal>
-            https://www.legaltalents.pl/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://mamzajawke.com/" isExternal>
+            https://mamzajawke.com/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -29,21 +28,20 @@ const LegalTalents = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>
-            NextJS, React, Chakra UI, Typescript, Figma, Strapi, PostgreSQL
-          </span>
+          <span>Wordpress, WooCommerce</span>
         </ListItem>
         <ListItem>
           <Meta>Deployment</Meta>
-          <span>Heroku, Vercel</span>
+          <span>OVH</span>
         </ListItem>
       </List>
       <Box mt={6}>
-        <ProjectImage src="/lt_2.png" alt="LegalTalents" />
-        <ProjectImage src="/lt_1.png" alt="LegalTalents" />
+        <ProjectImage src="/mz.png" alt="MamZajawkę" />
+        <ProjectImage src="/mz2.png" alt="MamZajawkę" />
+        <ProjectImage src="/mz3.png" alt="MamZajawkę" />
       </Box>
     </Container>
   </Article>
 );
 
-export default LegalTalents;
+export default MamZajawke;

@@ -25,7 +25,7 @@ export const Article: FC<ArticleProps> = ({ children, pageTitle }) => (
     <>
       {pageTitle && (
         <Head>
-          <title>{pageTitle} - Takuya Matsuyama</title>
+          <title>{pageTitle} - Dominik Słapa</title>
           <meta name="twitter:title" content={pageTitle} />
           <meta property="og:title" content={pageTitle} />
         </Head>
