@@ -13,7 +13,8 @@ const Seeplaces = () => (
         Seeplaces <Badge>2020 - 2021</Badge>
       </Title>
       <Paragraph>
-        E-commerce web application for local clothing brand.
+        Multilingual, multi-currency e-commerce web application with excursions
+        for tourists.
       </Paragraph>
       <List ml={4} my={4}>
         <ListItem>
@@ -29,7 +30,8 @@ const Seeplaces = () => (
         <ListItem>
           <Meta>Stack</Meta>
           <span>
-            Next.JS, React, Typescript, C#, ASP.NET Core, JQuery, Bootstrap 4
+            Next.JS, React, Typescript, Invision, C#, ASP.NET Core, JQuery,
+            Bootstrap 4
           </span>
         </ListItem>
         <ListItem>

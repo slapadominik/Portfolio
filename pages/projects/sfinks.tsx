@@ -13,7 +13,7 @@ const Sfinks = () => (
         Sfinks <Badge>2021</Badge>
       </Title>
       <Paragraph>
-        E-commerce web application for local clothing brand.
+        Website rework and maintenance for local language school.
       </Paragraph>
       <List ml={4} my={4}>
         <ListItem>
@@ -36,9 +36,8 @@ const Sfinks = () => (
         </ListItem>
       </List>
       <Box mt={6}>
-        <ProjectImage src="/seeplaces1.png" alt="MamZajawkę" />
-        <ProjectImage src="/seeplaces2.png" alt="MamZajawkę" />
-        <ProjectImage src="/seeplaces3.png" alt="MamZajawkę" />
+        <ProjectImage src="/sfinks2.png" alt="Sfinks" />
+        <ProjectImage src="/sfinks1.png" alt="Sfinks" />
       </Box>
     </Container>
   </Article>

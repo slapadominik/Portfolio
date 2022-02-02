@@ -96,15 +96,26 @@ const Home = () => {
         </Heading>
         <BioSection>
           <BioYear>2018 - 2020</BioYear>
-          Worked at Krajowy Rejestr Długów S.A., Wrocław
+          Worked at{" "}
+          <Link href="https://krd.pl/" isExternal>
+            Krajowy Rejestr Długów
+          </Link>
+          , Wrocław
         </BioSection>
         <BioSection>
           <BioYear>2020 - 2021</BioYear>
-          Worked at Axabee S.A., Wrocław
+          Worked at{" "}
+          <Link href="https://axabee.com/" isExternal>
+            Axabee
+          </Link>
+          , Wrocław
         </BioSection>
         <BioSection>
           <BioYear>2021 - present</BioYear>
-          Working remotly for Diagnostyka S.A.
+          Working remotely for{" "}
+          <Link href="https://diag.pl/" isExternal>
+            Diagnostyka S.A.
+          </Link>
         </BioSection>
       </Section>
       <Section delay={0.3}>
