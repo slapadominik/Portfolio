@@ -10,7 +10,7 @@ import { Article } from "../components/Article/Article";
 import { WorkGridItem } from "../components/GridItem/GridItem";
 
 const Works = () => (
-  <Article pageTitle="Works">
+  <Article pageTitle="Projects">
     <Container mt={4}>
       <Heading as="h3" fontSize={20} mb={4}>
         Personal projects

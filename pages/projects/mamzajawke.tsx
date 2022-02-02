@@ -7,7 +7,7 @@ import { Title } from "../../components/Title/Title";
 import { ProjectImage } from "../../components/ProjectImage/ProjectImage";
 
 const MamZajawke = () => (
-  <Article pageTitle="MamZajawke">
+  <Article pageTitle="MamZajawkę">
     <Container>
       <Title>
         MamZajawke <Badge>2018 - present</Badge>
