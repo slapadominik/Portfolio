@@ -14,6 +14,8 @@ import { Meta } from "../../components/Meta/Meta";
 import { Title } from "../../components/Title/Title";
 import { ProjectImage } from "../../components/ProjectImage/ProjectImage";
 import { Image } from "@chakra-ui/react";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 const LegalTalents = () => (
   <Article pageTitle="Hiker">
@@ -51,17 +53,16 @@ const LegalTalents = () => (
       </List>
       <Box mt={6}>
         <Stack direction={"row"} spacing={"10"}>
-          <Image borderRadius="lg" w="50%" src="/hiker_login.png" alt={"abc"} />{" "}
-          <Image borderRadius="lg" w="50%" src="/hiker_mapa.png" alt={"abc"} />
+          <ProjectImage src="/hiker_login.png" alt={"Hiker"} />
+          <ProjectImage src="/hiker_mapa.png" alt={"Hiker"} />
         </Stack>
         <Stack direction={"row"} spacing={"10"} mt={6} mb={6}>
-          <Image borderRadius="lg" w="50%" src="/hiker_brief.png" alt={"abc"} />{" "}
-          <Image
-            borderRadius="lg"
-            w="50%"
-            src="/hiker_mountain.png"
-            alt={"abc"}
-          />
+          <Zoom>
+            <Image borderRadius="lg" src="/hiker_brief.png" alt={"Hiker"} />{" "}
+          </Zoom>
+          <Zoom>
+            <Image borderRadius="lg" src="/hiker_mountain.png" alt={"abc"} />
+          </Zoom>
         </Stack>
       </Box>
     </Container>
