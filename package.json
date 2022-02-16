@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap --config next-sitemap.config.js"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.1.1",
@@ -18,6 +19,7 @@
     "@fontsource/raleway": "^4.5.1",
     "framer-motion": "^5.6.0",
     "next": "12.0.8",
+    "next-sitemap": "^1.6.203",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
