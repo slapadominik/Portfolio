@@ -15,6 +15,10 @@ export const Layout: FC<LayoutProps> = ({ children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Dominik Słapa - Homepage</title>
         <link rel="icon" href="/mountaintop.png" />
+        <meta
+          name="google-site-verification"
+          content="VtvDb2N3AV4MAcSsbcvOcBHXm4LXrfilflt8rm46AVk"
+        />
       </Head>
       <Navbar path={router.asPath} />
       <Container maxW="container.md" pt={14}>

@@ -24,12 +24,13 @@ const Logo = () => {
     <Link href="/">
       <a>
         <LogoBox>
-          <GiMountaintop />
+          <GiMountaintop fontSize={"1.10em"} />
           <Text
             color={useColorModeValue("gray.800", "whiteAlpha.900")}
             fontFamily='"M PLUS Rounded 1c"'
             fontWeight="500"
             ml={2}
+            fontSize={"1.12em"}
           >
             Dominik Słapa
           </Text>
