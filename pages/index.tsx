@@ -40,7 +40,7 @@ const Home = () => {
           <Heading as="h2" variant="page-title" fontWeight={"500"}>
             Dominik Słapa
           </Heading>
-          <p>Digital Craftsman ( Developer / Designer )</p>
+          <p>Software developer</p>
         </Box>
         <Box
           flexShrink={0}
